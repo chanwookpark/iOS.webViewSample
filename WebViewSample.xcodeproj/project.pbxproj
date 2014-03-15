@@ -22,10 +22,13 @@
 		CA224C6918C3EADA0069E121 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA224C4818C3EADA0069E121 /* UIKit.framework */; };
 		CA224C7118C3EADA0069E121 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA224C6F18C3EADA0069E121 /* InfoPlist.strings */; };
 		CA224C7318C3EADA0069E121 /* WebViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA224C7218C3EADA0069E121 /* WebViewSampleTests.m */; };
-		CA5E505318C53C9200119D08 /* cottage-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5E505218C53C9200119D08 /* cottage-32.png */; };
-		CA5E505518C53CEE00119D08 /* note-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5E505418C53CEE00119D08 /* note-32.png */; };
-		CA5E505818C53DDA00119D08 /* add_list-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5E505618C53DDA00119D08 /* add_list-32.png */; };
-		CA5E505918C53DDA00119D08 /* make_decision-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5E505718C53DDA00119D08 /* make_decision-32.png */; };
+		CA5E505518C53CEE00119D08 /* post-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5E505418C53CEE00119D08 /* post-32.png */; };
+		CA5E505818C53DDA00119D08 /* index-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5E505618C53DDA00119D08 /* index-32.png */; };
+		CA5E505918C53DDA00119D08 /* changes-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5E505718C53DDA00119D08 /* changes-32.png */; };
+		CAA7AC2218D4B7EB00EC5D84 /* changesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA7AC2118D4B7EB00EC5D84 /* changesViewController.m */; };
+		CAA7AC2418D4BB9E00EC5D84 /* home-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA7AC2318D4BB9E00EC5D84 /* home-32.png */; };
+		CAA7AC2618D4BC5900EC5D84 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CAA7AC2518D4BC5900EC5D84 /* .gitignore */; };
+		CAA7AC2E18D4BDA400EC5D84 /* indexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA7AC2D18D4BDA400EC5D84 /* indexViewController.m */; };
 		CAEE310318D3E5F800FDAD3E /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEE310218D3E5F800FDAD3E /* PostViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -60,10 +63,15 @@
 		CA224C6E18C3EADA0069E121 /* WebViewSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebViewSampleTests-Info.plist"; sourceTree = "<group>"; };
 		CA224C7018C3EADA0069E121 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA224C7218C3EADA0069E121 /* WebViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewSampleTests.m; sourceTree = "<group>"; };
-		CA5E505218C53C9200119D08 /* cottage-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cottage-32.png"; path = "../cottage-32.png"; sourceTree = "<group>"; };
-		CA5E505418C53CEE00119D08 /* note-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note-32.png"; sourceTree = "<group>"; };
-		CA5E505618C53DDA00119D08 /* add_list-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_list-32.png"; sourceTree = "<group>"; };
-		CA5E505718C53DDA00119D08 /* make_decision-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "make_decision-32.png"; sourceTree = "<group>"; };
+		CA5E505418C53CEE00119D08 /* post-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post-32.png"; sourceTree = "<group>"; };
+		CA5E505618C53DDA00119D08 /* index-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "index-32.png"; sourceTree = "<group>"; };
+		CA5E505718C53DDA00119D08 /* changes-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "changes-32.png"; sourceTree = "<group>"; };
+		CAA7AC2018D4B7EB00EC5D84 /* changesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = changesViewController.h; sourceTree = "<group>"; };
+		CAA7AC2118D4B7EB00EC5D84 /* changesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = changesViewController.m; sourceTree = "<group>"; };
+		CAA7AC2318D4BB9E00EC5D84 /* home-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-32.png"; sourceTree = "<group>"; };
+		CAA7AC2518D4BC5900EC5D84 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CAA7AC2C18D4BDA400EC5D84 /* indexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indexViewController.h; sourceTree = "<group>"; };
+		CAA7AC2D18D4BDA400EC5D84 /* indexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indexViewController.m; sourceTree = "<group>"; };
 		CAEE310118D3E5F800FDAD3E /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
 		CAEE310218D3E5F800FDAD3E /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +103,7 @@
 		CA224C3818C3EADA0069E121 = {
 			isa = PBXGroup;
 			children = (
+				CAA7AC2518D4BC5900EC5D84 /* .gitignore */,
 				CA224C4A18C3EADA0069E121 /* WebViewSample */,
 				CA224C6C18C3EADA0069E121 /* WebViewSampleTests */,
 				CA224C4318C3EADA0069E121 /* Frameworks */,
@@ -125,20 +134,14 @@
 		CA224C4A18C3EADA0069E121 /* WebViewSample */ = {
 			isa = PBXGroup;
 			children = (
-				CA5E505618C53DDA00119D08 /* add_list-32.png */,
-				CA5E505718C53DDA00119D08 /* make_decision-32.png */,
-				CA5E505418C53CEE00119D08 /* note-32.png */,
-				CA5E505218C53C9200119D08 /* cottage-32.png */,
+				CAA7AC2818D4BD7800EC5D84 /* viewController */,
+				CAA7AC2718D4BC8700EC5D84 /* image */,
 				CA224C5318C3EADA0069E121 /* sampleAppDelegate.h */,
 				CA224C5418C3EADA0069E121 /* sampleAppDelegate.m */,
 				CA224C5618C3EADA0069E121 /* Main_iPhone.storyboard */,
 				CA224C5918C3EADA0069E121 /* Main_iPad.storyboard */,
-				CA224C5C18C3EADA0069E121 /* mainViewController.h */,
-				CA224C5D18C3EADA0069E121 /* mainViewController.m */,
 				CA224C5F18C3EADA0069E121 /* Images.xcassets */,
 				CA224C4B18C3EADA0069E121 /* Supporting Files */,
-				CAEE310118D3E5F800FDAD3E /* PostViewController.h */,
-				CAEE310218D3E5F800FDAD3E /* PostViewController.m */,
 			);
 			path = WebViewSample;
 			sourceTree = "<group>";
@@ -170,6 +173,32 @@
 				CA224C6F18C3EADA0069E121 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAA7AC2718D4BC8700EC5D84 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CAA7AC2318D4BB9E00EC5D84 /* home-32.png */,
+				CA5E505618C53DDA00119D08 /* index-32.png */,
+				CA5E505718C53DDA00119D08 /* changes-32.png */,
+				CA5E505418C53CEE00119D08 /* post-32.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		CAA7AC2818D4BD7800EC5D84 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				CA224C5C18C3EADA0069E121 /* mainViewController.h */,
+				CA224C5D18C3EADA0069E121 /* mainViewController.m */,
+				CAEE310118D3E5F800FDAD3E /* PostViewController.h */,
+				CAEE310218D3E5F800FDAD3E /* PostViewController.m */,
+				CAA7AC2018D4B7EB00EC5D84 /* changesViewController.h */,
+				CAA7AC2118D4B7EB00EC5D84 /* changesViewController.m */,
+				CAA7AC2C18D4BDA400EC5D84 /* indexViewController.h */,
+				CAA7AC2D18D4BDA400EC5D84 /* indexViewController.m */,
+			);
+			name = viewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,13 +279,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA224C5B18C3EADA0069E121 /* Main_iPad.storyboard in Resources */,
+				CAA7AC2418D4BB9E00EC5D84 /* home-32.png in Resources */,
 				CA224C6018C3EADA0069E121 /* Images.xcassets in Resources */,
-				CA5E505818C53DDA00119D08 /* add_list-32.png in Resources */,
-				CA5E505518C53CEE00119D08 /* note-32.png in Resources */,
-				CA5E505918C53DDA00119D08 /* make_decision-32.png in Resources */,
+				CA5E505818C53DDA00119D08 /* index-32.png in Resources */,
+				CA5E505518C53CEE00119D08 /* post-32.png in Resources */,
+				CA5E505918C53DDA00119D08 /* changes-32.png in Resources */,
 				CA224C5818C3EADA0069E121 /* Main_iPhone.storyboard in Resources */,
+				CAA7AC2618D4BC5900EC5D84 /* .gitignore in Resources */,
 				CA224C4F18C3EADA0069E121 /* InfoPlist.strings in Resources */,
-				CA5E505318C53C9200119D08 /* cottage-32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +309,8 @@
 				CA224C5E18C3EADA0069E121 /* mainViewController.m in Sources */,
 				CA224C5518C3EADA0069E121 /* sampleAppDelegate.m in Sources */,
 				CA224C5118C3EADA0069E121 /* main.m in Sources */,
+				CAA7AC2218D4B7EB00EC5D84 /* changesViewController.m in Sources */,
+				CAA7AC2E18D4BDA400EC5D84 /* indexViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
