@@ -6,18 +6,19 @@
 //  Copyright (c) 2014년 chanwook. All rights reserved.
 //
 
-#import "sampleViewController.h"
+#import "mainViewController.h"
 
-@interface sampleViewController ()
-
-@end
-
-@implementation sampleViewController
+@implementation mainViewController
+@synthesize mainView;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString *fullUrl = @"http://wiki-camp.appspot.com/Home"; // home url
+    NSURL *url = [NSURL URLWithString:fullUrl]; // url object
+    NSURLRequest *requestObject = [NSURLRequest requestWithURL:url];
+    [mainView loadRequest:requestObject]; // request to webview
 }
 
 - (void)didReceiveMemoryWarning

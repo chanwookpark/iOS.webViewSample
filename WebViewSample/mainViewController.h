@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface sampleViewController : UIViewController
+@interface mainViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *mainView;
 
 @end
